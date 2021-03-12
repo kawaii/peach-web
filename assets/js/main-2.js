@@ -27,6 +27,10 @@ var Peach = {
 
     createRulesModal: function () {
         Peach.createModal(`assets/components/rules.html`)
+    },
+
+    createPluginsModal: function () {
+        Peach.createModal(`assets/components/plugins.html`)
     }
 
     

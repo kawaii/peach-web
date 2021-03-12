@@ -134,21 +134,28 @@ body {
     background-color: #f0e4d7 !important;
     border-radius: 0px 0px 10px 10px !important;
     border: none !important;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 10px 10px 35px;
 }
 
-.rules-modal {
-    animation: popout 1s ease;
-    z-index: 2000;
-}
-
-.rules-modal .modal-content ul {
+.modal-content ul {
     display: contents;
 }
 
-.rules-modal .modal-content ul li {
-    list-style: decimal;
+.modal-content ul li {
     font-size: 16px;
+    padding: 5px 0px;
+}
+
+.modal-rules .modal-content ul li {
+    list-style: decimal;
+}
+
+.modal-plugins .modal-content ul li {
+    list-style: disc;
+}
+
+.zindex {
+    z-index: 9999;
 }
 
 .popout {
